@@ -15,14 +15,15 @@ struct Horoscope{
     let dates: String
 
     
-    static let welcome = "Hola"
+   // static let welcome = "Hola"
     
     func getIcon() -> UIImage? {
-        UIImage(named: "horoscope_icons/\(id)_icon")
+        UIImage(named: "horoscope-icons/\(id)_icon")
         
     }
     
     static let horoscopeList: [Horoscope] = [
+        
         Horoscope(id: "aries", name: "Aries", dates: "21 Marzo al 19 Abril"),
         Horoscope(id: "taurus", name: "Tauro", dates: "20 Abril al 20 Mayo"),
         Horoscope(id: "gemini", name: "Géminis", dates: "21 Mayo al 20 Junio"),
