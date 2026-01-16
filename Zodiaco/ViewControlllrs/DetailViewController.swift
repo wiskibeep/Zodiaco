@@ -11,10 +11,12 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var IconImageView: UIImageView!
     
+    
+    //MARK: propiedades
     var horoscope:Horoscope!
         
     
-    
+    //MARK: Subtitulos
     
     override func viewDidLoad() {
         super.viewDidLoad()
